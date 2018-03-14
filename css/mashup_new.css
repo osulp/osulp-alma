@@ -218,6 +218,9 @@ input#openRequest:focus {
     width: inherit;
 }
 
-
-
-
+/* Hides locate links and request bars */ 
+@media screen and (min-width: 810px) and (max-width: 812px)
+{
+    .iframeHeaderContent { display: none; }
+    .locate { display: none !important; }
+}
