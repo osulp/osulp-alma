@@ -1,8 +1,16 @@
 /* General branding */ 
 
 body {
-    font-size: 16px; /* check for mobile */ 
+    font-size: 14px; /* check for mobile */ 
     font-family: Arial, sans-serif; 
+}
+
+.viewIt h1 {
+    font-size: 1em; 
+}
+
+a {
+    text-decoration: underline !important; 
 }
 
 .iframeHeaderContent > em {
@@ -161,8 +169,6 @@ ul.showMore li {
 }
 
 .publicNote {
-    margin: 0 3em; 
-    border: 1px black solid; 
     padding: 0 1em; 
 }
 
@@ -224,3 +230,5 @@ input#openRequest:focus {
     .iframeHeaderContent { display: none; }
     .locate { display: none !important; }
 }
+
+.viewIt > ul > li a[target="_blank"]::after { width: 0; }
